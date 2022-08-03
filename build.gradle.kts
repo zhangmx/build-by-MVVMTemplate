@@ -10,6 +10,8 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        // for implementation(Depends.Libraries.jdk9deps)  https://github.com/pengrad/jdk9-deps/issues/1
+        jcenter()
     }
     dependencies {
         classpath(app.web.drjackycv.buildsrc.Depends.ClassPaths.gradle)
@@ -29,6 +31,8 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+        // for implementation(Depends.Libraries.jdk9deps)  https://github.com/pengrad/jdk9-deps/issues/1
+        jcenter()
         maven("https://maven.google.com/")
         maven("https://jitpack.io")
         maven("https://plugins.gradle.org/m2/")

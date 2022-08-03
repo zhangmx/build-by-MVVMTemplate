@@ -66,6 +66,11 @@ dependencies {
     kapt(Depends.Libraries.hilt_android_compiler)
     kapt(Depends.Libraries.hilt_compiler)
     implementation(Depends.Libraries.java_inject)
+
+//    implementation(Depends.Libraries.java_annotation)
+    //for javax.annotation.processing.Generated
+    implementation(Depends.Libraries.jdk9deps)
+
     //other
     implementation(Depends.Libraries.timber)
     //android

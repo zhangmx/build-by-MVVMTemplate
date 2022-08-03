@@ -67,6 +67,8 @@ dependencies {
     kapt(Depends.Libraries.hilt_android_compiler)
     kapt(Depends.Libraries.hilt_compiler)
     implementation(Depends.Libraries.java_inject)
+    //for javax.annotation.processing.Generated
+    implementation(Depends.Libraries.jdk9deps)
     //parser
     api(Depends.Libraries.converter_gson)
     //network

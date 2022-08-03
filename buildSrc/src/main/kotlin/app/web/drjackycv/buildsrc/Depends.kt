@@ -34,6 +34,7 @@ object Depends {
         const val hiltCompilerVersion = "1.0.0"
         const val hiltNavigationComposeVersion = "1.0.0-alpha03"
         const val javaxInjectVersion = "1"
+        const val javaxAnnotationApi = "1.3.2"// javax.annotation-api
         const val timberVersion = "5.0.1"
         const val lottieVersion = "4.2.2"
         const val glideVersion = "4.13.1"
@@ -95,6 +96,11 @@ object Depends {
         const val paging_rx =
             "androidx.paging:paging-rxjava3:${Versions.pagingVersion}"
         const val java_inject = "javax.inject:javax.inject:${Versions.javaxInjectVersion}"
+        const val java_annotation = "javax.annotation:javax.annotation-api:1.3.2"
+
+        //javax.annotation:javax.annotation-api:1.3.2
+//            "javax.annotation:javax.annotation-api:${Versions.javaxAnnotationApi}"
+        const val jdk9deps = "com.github.pengrad:jdk9-deps:1.0"
         const val retrofit = "com.squareup.retrofit2:retrofit:${Versions.retrofit2Version}"
         const val retrofit_adapter_rx =
             "com.squareup.retrofit2:adapter-rxjava3:${Versions.retrofit2Version}"

@@ -61,6 +61,8 @@ dependencies {
     implementation(Depends.Libraries.rx_java)
     //dependency injection
     implementation(Depends.Libraries.java_inject)
+    //for javax.annotation.processing.Generated
+    implementation(Depends.Libraries.jdk9deps)
     //test
     testImplementation(Depends.Libraries.junit)
     testImplementation(Depends.Libraries.mockito_core)
